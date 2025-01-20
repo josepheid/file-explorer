@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/goteleport-interview/fs4/api/internal/respond"
+	"github.com/josepheid/file-explorer/api/internal/respond"
 )
 
 type BrowseHandler struct {

@@ -8,10 +8,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/goteleport-interview/fs4/api/handlers"
-	"github.com/goteleport-interview/fs4/api/internal/auth"
-	"github.com/goteleport-interview/fs4/api/internal/middleware"
-	"github.com/goteleport-interview/fs4/api/internal/sessions"
+	"github.com/josepheid/file-explorer/api/handlers"
+	"github.com/josepheid/file-explorer/api/internal/auth"
+	"github.com/josepheid/file-explorer/api/internal/middleware"
+	"github.com/josepheid/file-explorer/api/internal/sessions"
 	"github.com/rs/cors"
 )
 

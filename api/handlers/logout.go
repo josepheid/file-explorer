@@ -3,8 +3,8 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/goteleport-interview/fs4/api/internal/respond"
-	"github.com/goteleport-interview/fs4/api/internal/sessions"
+	"github.com/josepheid/file-explorer/api/internal/respond"
+	"github.com/josepheid/file-explorer/api/internal/sessions"
 )
 
 // LogoutHandler defines the logout handler and the dependencies it needs

@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/goteleport-interview/fs4/api"
+	"github.com/josepheid/file-explorer/api"
 )
 
 const listenPort = 8080

@@ -1,4 +1,4 @@
-module github.com/goteleport-interview/fs4
+module github.com/josepheid/file-explorer
 
 go 1.23
 

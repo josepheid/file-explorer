@@ -3,8 +3,8 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/goteleport-interview/fs4/api/internal/respond"
-	"github.com/goteleport-interview/fs4/api/internal/sessions"
+	"github.com/josepheid/file-explorer/api/internal/respond"
+	"github.com/josepheid/file-explorer/api/internal/sessions"
 )
 
 func RequireAuth(ss *sessions.Service) func(http.Handler) http.Handler {

@@ -7,8 +7,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/goteleport-interview/fs4/api/internal/auth"
-	"github.com/goteleport-interview/fs4/api/internal/sessions"
+	"github.com/josepheid/file-explorer/api/internal/auth"
+	"github.com/josepheid/file-explorer/api/internal/sessions"
 )
 
 func TestLoginHandler(t *testing.T) {

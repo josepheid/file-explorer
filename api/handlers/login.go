@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/goteleport-interview/fs4/api/internal/auth"
-	"github.com/goteleport-interview/fs4/api/internal/respond"
-	"github.com/goteleport-interview/fs4/api/internal/sessions"
+	"github.com/josepheid/file-explorer/api/internal/auth"
+	"github.com/josepheid/file-explorer/api/internal/respond"
+	"github.com/josepheid/file-explorer/api/internal/sessions"
 )
 
 // LoginHandler defines the login handler and the dependencies it needs
